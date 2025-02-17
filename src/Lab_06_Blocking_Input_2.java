@@ -13,7 +13,9 @@ public class Lab_06_Blocking_Input_2 {
             if (in.hasNextDouble()) {
                 width = in.nextDouble();
                 done = true;
-            } else {
+            }
+            else
+            {
                 trash = in.nextLine();
                 System.out.println("Please enter a valid width.");
             }
