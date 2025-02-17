@@ -16,9 +16,8 @@ public class Main {
             }
             else
             {
-                trash = in.nextLine();
-                System.out.println("You said the temperature was " + trash + ".");
-                System.out.println("You need to enter a valid temperature");
+                trash = in.next();
+                System.out.println("You said the temperature was " + trash + ". You need to enter a valid temperature.");
             }
         }while(!done);
     }
